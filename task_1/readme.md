@@ -78,11 +78,10 @@ let newValue + 1;
 Пишите весь код решения между строками
 "Задание №1.3."
 let newSum;
-newSum = oldSum;
-newSum = difference;
+newSum = oldSum + difference;
 let newSumText;
-let newSumText = newSum + '₽';
-newSumText = '${newSum} ₽';
+console.log(newSumText = newSum + '₽');
+newSumText = `${newSum} ₽`;
 "Конец решения задания №1.3."
 1. Создайте переменную newSum и присвойте ей сумму oldSum и difference
 2. Создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'

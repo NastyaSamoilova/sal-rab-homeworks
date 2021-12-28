@@ -24,11 +24,11 @@ function renderCartItem(item) {
     // 8. Присвойте переменной itemCountText результат склеивания itemCountText и ` ₽`
 
     let itemCountText = " ";
-    itemCountText = itemCountText + count;
-    itemCountText = itemCountText + "x";
+    itemCountText = itemCountText + product.count;
+    itemCountText = itemCountText + "*";
     itemCountText = itemCoumtText + price;
     itemCountText = itemCountText + "₽ = ";
-    let sum = count * price;
+    let sum = product.count * product.price;
     itemCountText = itemCountText + sum;
     itemCountText = itemCountText + "₽";
 
